@@ -8,7 +8,7 @@ public class bai27 {
         int j =0;
         for (int i = 1; i <= n; i++) {
             if(n % i==0){
-                if(i % 2 == 0){         //tìm ước số là số chẵn
+                if(i % 2 == 0){//tìm ước số là số chẵn
                     System.out.printf("%d ", i);
                     j++;    // lưu số lượng ước chẵn
                 }
